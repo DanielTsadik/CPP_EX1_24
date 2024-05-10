@@ -8,7 +8,7 @@ using namespace std;
 
 namespace ariel
 {
-    bool isSimetric(std::vector<vector<size_t>> &matrix)
+    bool ariel::Graph::isSimetric(std::vector<std::vector<int>> &matrix) const
     {
         for (size_t i = 0; i < matrix.size(); i++)
         {
@@ -48,8 +48,6 @@ namespace ariel
         this->adjacencyMatrix = matrix;
         this->vertices = matrix.size();
     }
-
-    
 
     void Graph::printGraph() const
     {

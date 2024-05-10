@@ -59,7 +59,7 @@ namespace ariel
         return true;
     }
 
-    string shortestPath(const Graph &g, size_t source, size_t destination)
+    std::string ariel::Algorithms::shortestPath(Graph &g, size_t source, size_t destination)
     {
         size_t V = g.getnumVertices();
         vector<size_t> distances(V, INT_MAX);
