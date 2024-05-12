@@ -1,3 +1,7 @@
+// Daniel Tsadik	
+// ID: 209307727	
+// Mail: tsadik88@gmail.com
+
 // Algorithms.cpp
 #include "Algorithms.hpp"
 #include <vector>

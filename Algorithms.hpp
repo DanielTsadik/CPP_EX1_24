@@ -1,3 +1,7 @@
+// Daniel Tsadik	
+// ID: 209307727	
+// Mail: tsadik88@gmail.com
+
 // Algorithms.hpp
 #ifndef ALGORITHMS_H
 #define ALGORITHMS_H
