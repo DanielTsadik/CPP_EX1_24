@@ -5,7 +5,7 @@ VALGRIND_FLAGS=-v --leak-check=full --show-leak-kinds=all  --error-exitcode=99
 SOURCES=Graph.cpp Algorithms.cpp
 OBJECTS=$(subst .cpp,.o,$(SOURCES))
 
-run: demo
+run: test
 	./$^
 
 demo: Demo.o $(OBJECTS)
